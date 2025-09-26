@@ -42,7 +42,7 @@ function Home() {
         <p className="text-center">Explore our best seller products</p>
 
         {isLoading ? (
-          <div className="flex justify-center mt-10 ">
+          <div className="flex justify-center mt-8 ">
             <div className="border-gray-300 h-8 w-8 animate-spin rounded-full border-4 border-t-gray-600"></div>
           </div>
         ) : (
